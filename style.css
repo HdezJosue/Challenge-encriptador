@@ -5,8 +5,9 @@
     text-align: left; font-size: 25px; padding-bottom: 20px; font-weight: bold;
 }
 .div1 {
-    display: inline-block;
+    display: inline; margin: 10px 15px 10px 0px;
 }
+
 .div2 {
-    display: inline-block;
+    display: inline;
 }
