@@ -1,5 +1,5 @@
-const textArea = document.querySelector(".ingresar-msg");
-const mensaje = document.querySelector(".msg-codificado");
+const textArea = document.querySelector(".ingresarmsg");
+const mensaje = document.querySelector(".msgcodificado");
 
 const matrizCodigo = [
     ["a", "ai"],
@@ -9,18 +9,18 @@ const matrizCodigo = [
     ["u", "ufat"]
 ]
 function btnEncriptar(){
-    const textEncriptado = encriptar(textArea.value)
-    mensaje.value = textEncriptado;
+    const textoEncriptado = encriptar(textArea.value);
+    mensaje.value = textoEncriptado;
     textArea.value = "";
 }
 function btnDesencriptar(){
-    const textDesencriptado = desencriptar(textArea.value);
-    mensaje.value = textDesencriptado;
+    const textoDesencriptado = desencriptar(textArea.value);
+    mensaje.value = textoDesencriptado;
     textArea.value = "";
 }
 function encriptar(stringEncriptado){
-    stringEncriptado = stringEncriptado.tolowerCase();
-    for(let i=0; i<matrizCodigo.length; i++){
+    stringEncriptado = stringEncriptado.toLowerCase();
+    for(let i=0; i < matrizCodigo.length; i++){
         if(stringEncriptado.includes(matrizCodigo[i][0])){
             stringEncriptado = stringEncriptado.replaceAll(matrizCodigo[i][0], matrizCodigo[i][1])
         }
