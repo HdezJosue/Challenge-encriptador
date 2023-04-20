@@ -1,0 +1,12 @@
+.body{
+    background-color: gainsboro; margin: 15px;
+}
+.encabezado {
+    text-align: left; font-size: 25px; padding-bottom: 20px; font-weight: bold;
+}
+.div1 {
+    display: inline-block;
+}
+.div2 {
+    display: inline-block;
+}
