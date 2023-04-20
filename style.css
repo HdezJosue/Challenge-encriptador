@@ -1,13 +1,21 @@
 .body{
     background-color: gainsboro; margin: 15px;
 }
-.encabezado {
-    text-align: left; font-size: 25px; padding-bottom: 20px; font-weight: bold;
+.header {
+    text-align: left; font-size: 25px; padding: 20px 0px 20px 30px; font-weight: bold;
 }
-.div1 {
-    display: inline; margin: 10px 15px 10px 0px;
+main {
+    display: flex;
 }
-
-.div2 {
-    display: inline;
+.text1 {
+    padding: 35px 20px 0px 15px;
+}
+.botones {
+    display: inline-block; padding: 5px 0 15px 10px;
+}
+.bot {
+    margin: 10px; width: 150px; height: 30px; border-radius: 7px 7px;
+}
+footer {
+    display: flex; margin: 5px;
 }
