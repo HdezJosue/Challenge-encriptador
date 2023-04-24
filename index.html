@@ -4,36 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Challenge-Encriptador</title>
-    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <title>Challenge-Encriptador</title>
 </head>
 
-<body class=" body">
-    <header class="header">
+<body>
+    <header>
         <h1>Encriptador de Mensajes</h1>
     </header>
 
     <main>
-        <section class="text1">
-            <textarea class="ingresarmsg" cols="60" rows="25" placeholder="Ingrese aquí su texto"></textarea>
+        <section>
+            <textarea class="ingrese-msg" cols="60" rows="25"></textarea>
         </section>
       
          <section>
-          <textarea class="msgcodificado" cols="25" rows="30" ></textarea>
+          <textarea class="msg-codificado" cols="25" rows="30" ></textarea>
          </section>
     </main>
 
     <div>
-        <section class="botones">
-            <button class="bot" onclick="btnEncriptar()">Encriptar</button>
-            <button class="bot" onclick="btnDesencriptar()">Desencriptar</button>
-            <button class="bot" onclick="btncopiar()">Copiar</button>
-         </section>
+        <section>
+            <button onclick="btnEncriptar()">Encriptar</button>
+            <button onclick="btnDesencriptar()">Desencriptar</button>
+            <button onclick="btnCopiar()">Copiar</button>
+        </section>
     </div>
 
     <footer>
-        <img class="github" src="https://th.bing.com/th?id=OIP.ckeUFk-yid0vfWnd56w7wAHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" alt="Github">
         <h6 class="h6">Desarrollador: JosueHdez</h6>
     </footer>
     <script> src="script.js"</script>
