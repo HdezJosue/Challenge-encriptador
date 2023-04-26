@@ -2,9 +2,9 @@ const textArea = document.querySelector(".ingrese-msg");
 const mensaje = document.querySelector(".msg-codificado");
 
 const matrizCodigo = [
-    ["a", "ai"],
-    ["e", "enter"],
     ["i", "imes"],
+    ["e", "enter"],
+    ["a", "ai"],
     ["o", "ober"],
     ["u", "ufat"]
 ]
